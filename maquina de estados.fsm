@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fsm>
+  <states>
+    <state>
+      <values></values>
+      <position x="60.0" y="-180.0"/>
+      <number>0</number>
+      <name>000000</name>
+      <radius>70</radius>
+      <isInitial>true</isInitial>
+    </state>
+    <state>
+      <values></values>
+      <position x="-360.0" y="-480.0"/>
+      <number>1</number>
+      <name>000001</name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+    </state>
+    <state>
+      <values></values>
+      <position x="-660.0" y="-60.0"/>
+      <number>2</number>
+      <name>000011</name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+    </state>
+    <state>
+      <values></values>
+      <position x="-480.0" y="360.0"/>
+      <number>3</number>
+      <name>000111</name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+    </state>
+    <state>
+      <values></values>
+      <position x="60.0" y="360.0"/>
+      <number>4</number>
+      <name>11111</name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+    </state>
+    <state>
+      <values></values>
+      <position x="540.0" y="360.0"/>
+      <number>5</number>
+      <name>111000</name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+    </state>
+    <state>
+      <values></values>
+      <position x="840.0" y="-120.0"/>
+      <number>6</number>
+      <name>110000</name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+    </state>
+    <state>
+      <values></values>
+      <position x="540.0" y="-480.0"/>
+      <number>7</number>
+      <name>100000</name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+    </state>
+  </states>
+  <transitions>
+    <transition>
+      <values></values>
+      <position x="-110.33522" y="-385.5307"/>
+      <fromState reference="../../../states/state"/>
+      <toState reference="../../../states/state[2]"/>
+      <condition>010</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="-575.9484" y="-317.10602"/>
+      <fromState reference="../../../states/state[2]"/>
+      <toState reference="../../../states/state[3]"/>
+      <condition>010</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="-606.68964" y="165.72412"/>
+      <fromState reference="../../../states/state[3]"/>
+      <toState reference="../../../states/state[4]"/>
+      <condition>010</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="-210.0" y="406.0"/>
+      <fromState reference="../../../states/state[4]"/>
+      <toState reference="../../../states/state[5]"/>
+      <condition>1X0</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="131.94714" y="90.0"/>
+      <fromState reference="../../../states/state[5]"/>
+      <toState reference="../../../states/state"/>
+      <condition>1X0</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="-18.64241" y="90.0"/>
+      <fromState reference="../../../states/state[5]"/>
+      <toState reference="../../../states/state"/>
+      <condition>111</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="300.0" y="419.61084"/>
+      <fromState reference="../../../states/state[6]"/>
+      <toState reference="../../../states/state[5]"/>
+      <condition>10X</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="265.2809" y="-385.55054"/>
+      <fromState reference="../../../states/state"/>
+      <toState reference="../../../states/state[8]"/>
+      <condition>001</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="773.9551" y="172.47192"/>
+      <fromState reference="../../../states/state[7]"/>
+      <toState reference="../../../states/state[6]"/>
+      <condition>001</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="740.6" y="-342.16663"/>
+      <fromState reference="../../../states/state[8]"/>
+      <toState reference="../../../states/state[7]"/>
+      <condition>001</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="216.0805" y="90.0"/>
+      <fromState reference="../../../states/state"/>
+      <toState reference="../../../states/state[5]"/>
+      <condition>1X0</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="-103.14456" y="90.0"/>
+      <fromState reference="../../../states/state"/>
+      <toState reference="../../../states/state[5]"/>
+      <condition>10X</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="56.728436" y="90.0"/>
+      <fromState reference="../../../states/state[5]"/>
+      <toState reference="../../../states/state"/>
+      <condition>10X</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="-168.30658" y="-304.3708"/>
+      <fromState reference="../../../states/state[2]"/>
+      <toState reference="../../../states/state"/>
+      <condition>0X1</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="-313.71417" y="-202.28494"/>
+      <fromState reference="../../../states/state[3]"/>
+      <toState reference="../../../states/state"/>
+      <condition>0X1</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="-328.0" y="-27.999992"/>
+      <fromState reference="../../../states/state[4]"/>
+      <toState reference="../../../states/state"/>
+      <condition>010 / 0X1</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="400.05518" y="1.0620651"/>
+      <fromState reference="../../../states/state[6]"/>
+      <toState reference="../../../states/state"/>
+      <condition>001 / 01X</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="453.4249" y="-194.52353"/>
+      <fromState reference="../../../states/state[7]"/>
+      <toState reference="../../../states/state"/>
+      <condition>01X</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="320.73035" y="-296.83148"/>
+      <fromState reference="../../../states/state[8]"/>
+      <toState reference="../../../states/state"/>
+      <condition>01X</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="-431.9987" y="80.999344"/>
+      <fromState reference="../../../states/state[2]"/>
+      <toState reference="../../../states/state[5]"/>
+      <condition>1X0</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="-516.9275" y="521.8757"/>
+      <fromState reference="../../../states/state[3]"/>
+      <toState reference="../../../states/state[5]"/>
+      <condition>1X0</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="490.83078" y="49.046165"/>
+      <fromState reference="../../../states/state[8]"/>
+      <toState reference="../../../states/state[5]"/>
+      <condition>10X</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="703.0816" y="531.25757"/>
+      <fromState reference="../../../states/state[7]"/>
+      <toState reference="../../../states/state[5]"/>
+      <condition>10X</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="55.0" y="-588.0"/>
+      <fromState reference="../../../states/state"/>
+      <toState reference="../../../states/state"/>
+      <condition>011 / 111 / 000</condition>
+    </transition>
+  </transitions>
+</fsm>
